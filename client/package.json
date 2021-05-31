@@ -1,0 +1,15 @@
+{
+    "devDependencies": {
+        "snowpack": "^3.3.7"
+    },
+    "name": "client",
+    "version": "1.0.0",
+    "main": "script.js",
+    "scripts": {
+        "start": "snowpack dev"
+    },
+    "keywords": [],
+    "author": "Rahul Parikh",
+    "license": "ISC",
+    "description": ""
+}
