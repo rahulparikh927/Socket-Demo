@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <script src="script.js" type="module"></script>
-    </head>
-    <body>
-        <div id ="message-container"></div>
-        <form id="form">
-            <label for="message-input">Message</label>
-            <input type="text" id="message-input">
-            <button type="submit" id="send-button">Send</button>
-            <label for="room-input">Room</label>
-            <input type="text" id="room-input">
-            <button type="submit" id="room-button">Join</button>
-        </form>
-    </body>
+  <head>
+    <script src="script.js" type="module"></script>
+    <style type="text/css">
+      #message-container {
+        height: 300px;
+        border: 1px solid;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="message-container"></div>
+    <form id="form">
+      <label for="message-input">Message</label>
+      <input type="text" id="message-input" />
+      <button type="submit" id="send-button">Send</button>
+      <label for="room-input">Room</label>
+      <input type="text" id="room-input" />
+      <button type="submit" id="room-button">Join</button>
+    </form>
+  </body>
 </html>
